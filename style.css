@@ -1,0 +1,70 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+}
+.heading2{
+    color: rgb(120, 165, 42);
+}
+hr{
+    color: red;
+    border-bottom: 20px;
+}
+.text{
+    font-weight: 600;
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.card1{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    border-radius: 16px;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px black solid;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+.card1 img{
+    height: 60%;
+
+}
+.det1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.btn{
+    background-color: rgb(179, 140, 140);
+    border: 0.5px black solid;
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+#prodcardcart1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.btn:hover{
+    background-color: rgb(157, 255, 0);
+    transform: scale(1.1);
+}
